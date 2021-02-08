@@ -9,6 +9,8 @@ console.log(input.lightLevel() + 35.6)
 while (true) {
     if (input.lightLevel() + 35.6 > 400) {
         music.powerUp.playUntilDone()
+    } else {
+        music.stopAllSounds()
     }
     
 }
