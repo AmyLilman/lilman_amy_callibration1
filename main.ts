@@ -18,15 +18,15 @@
 //         light.set_all(light.rgb(0, 0, 255))
 //     else:
 //         light.clear()
-// print(input.sound_level() + 62.6)
+// print(input.sound_level() - 62.6)
 // while True: 
 //     if input.light_level()+ 35.6 > 300:
 //         light.set_all(light.rgb(0, 0, 255))
 //     else:
 //         light.clear()
-console.log(input.soundLevel() + 62.6)
+console.log(input.soundLevel() - 62.6)
 while (true) {
-    if (input.lightLevel() + 62.6 > 400) {
+    if (input.lightLevel() - 62.6 > 300) {
         light.setAll(light.rgb(0, 255, 255))
     } else {
         light.clear()
