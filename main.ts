@@ -26,7 +26,7 @@
 //         light.clear()
 console.log(input.soundLevel() - 62.6)
 while (true) {
-    if (input.lightLevel() - 62.6 > 300) {
+    if (input.lightLevel() - 62.6 > 40) {
         light.setAll(light.rgb(0, 255, 255))
     } else {
         light.clear()

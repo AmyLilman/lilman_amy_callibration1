@@ -33,7 +33,7 @@
 print(input.sound_level() - 62.6)
 
 while True: 
-    if input.light_level() - 62.6 > 300:
+    if input.light_level() - 62.6 > 40:
         light.set_all(light.rgb(0, 255, 255))
     else:
         light.clear()
